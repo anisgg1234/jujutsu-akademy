@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0x;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    color: black;
+}
+body{
+    backdrop-filter: blur(20px);
+    border-radius: px;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    background-color: rgb(13, 57, 13);
+
+    
+}
+.nav-top{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 213, 203);
+    height: 80px;
+    backdrop-filter: blur(20px);
+    line-height :50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    
+    
+    
+}
+#dash{
+    box-shadow: 0 0 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    height: 50px;
+    margin-top: 13px
+    
+}
+#news{
+    box-shadow: 0 0 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 13px;
+    height: 50px;
+    
+}
+#about{
+    box-shadow: 0 0 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 13px;
+    height: 50px;
+    
+}
+#log{
+    box-shadow: 0 0 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 13px;
+    height: 50px;
+    
+    
+    
+    
+}
+#dash:hover{
+    background-color: rgba(162, 247, 44, 0.49);
+    transition: 0.8s;
+    transform: scale(1.1) ;
+}
+
+
+
+#news:hover{
+    background-color: rgba(162, 247, 44, 0.49);
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+
+
+#about:hover{
+    background-color:rgba(162, 247, 44, 0.49) ;
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+
+
+
+#log:hover{
+    background-color:rgba(162, 247, 44, 0.49);
+    transition: 0.8s;
+    transform: scale(1.1);
+    
+}
+.all{
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    min-height: calc(100vh - 80px - 38px);
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 90vw;
+    
+}
+#welcome{
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(150, 8, 8);
+    font-weight: 1000;
+    width: 900px;
+}
+#h1{
+    color: rgb(106, 150, 230) ;
+    text-shadow: 0 0 10px black;
+    font-family: Poetsen One;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;;
+    
+}
+.who{
+    position: absolute;
+    margin-top: 400px;
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: rgb(59, 171, 61);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;;
+    
+}
+.who:hover{
+    background-color:rgb(171, 245, 172);
+    transition:0.5s;
+    transform: scale(01.07);
+    
+}
+.footer{
+        background-color: rgb(56, 54, 54);
+        padding: 10px;
+        text-align: center;
+        
+        
+        
+    
+}
+.copyright{
+    position: relative;
+    
+    bottom:6px;
+    text-align: left;
+    
+}
+.contactus{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    
+    background-color: rgb(93, 78, 78);
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+    
+    
+    
+}
+
+#cr{
+    color: #fff;
+}
+#contact{
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(249, 250, 246);
+    
+    
+}
+.contactus:hover{
+transform: scale(1.1);
+transition: 1s;
+}
+.socialicons{
+    
+    position: relative;
+    font-size: 20px;
+    bottom:30px;
+    text-align: right;
+    color: #fff;
+    
+    
+    
+    
+}
+#tw{
+    margin-right: 1em;
+}
+#you{
+    margin-right: 1em;
+}
+#twitch{
+    margin-right: 1em;
+}
+#dis{
+    margin-right: 1em;
+}
+#tw:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#you:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#twitch:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#dis:hover{
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.dev{
+    color: rgb(4, 255, 0);
+}
